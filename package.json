@@ -1,0 +1,40 @@
+{
+  "name": "fluffyunicorns",
+  "displayName": "Fluffy Unicorns Theme",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "publisher": "VVerena",
+  "author": "Verena Vertonghen <verena.vertonghen@gmail.com>",
+  "description": "Fluffy Unicorns Theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/verenavertonghen/unicorn-syntax",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#5A5475",
+    "theme": "dark"
+  },
+  "contributes": {
+      "themes": [
+          {
+              "label": "fluffyunicorns",
+              "uiTheme": "vs-dark",
+              "path": "./themes/fluffyunicorns.json"
+          }
+      ]
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "js-yaml": "^3.8.4"
+  }
+}
